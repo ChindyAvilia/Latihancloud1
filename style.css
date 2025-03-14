@@ -1,0 +1,71 @@
+/* Warna teks pink pastel */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCE4EC; /* Latar belakang soft pink */
+    color: #D47FA6; /* Warna teks pink */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigasi */
+nav {
+    background: #FFB6C1; /* Warna latar belakang navbar */
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #FFF0F5; /* Lavender blush */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left; /* Teks menjadi rata kiri */
+}
+
+/* Form */
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #18060c; /* Warna teks label pink */
+    text-align: left; /* Label sejajar kiri */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #FFB6C1;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #FFEFF2;
+}
+
+.contact-form button {
+    background-color: #FF80AB;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left; /* Tombol juga sejajar kiri */
+}

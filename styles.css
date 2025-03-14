@@ -1,0 +1,74 @@
+/* Pastel Theme CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCE4EC; /* Soft pink pastel */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #FFB6C1; /* Light pastel pink */
+    padding: 15px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #FFF0F5; /* Lavender blush pastel */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h1 {
+    color: #D47FA6; /* Soft pastel purple */
+    max-width: 100%;
+}
+
+.hero p {
+    color: #555;
+    max-width: 100%;
+}
+
+.intro, .features {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background: #FFDEE9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
